@@ -248,15 +248,15 @@ body {
   padding: 0;
 }
 
-.feature-item {
+.feature__item {
   flex-basis: 270px;
   margin-right: 30px;
 }
-.feature-item:last-child {
+.feature__item:last-child {
   margin-right: 0;
 }
 
-.feature-title {
+.feature__title {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -264,13 +264,13 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.feature-text {
+.feature__text {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.feature-box-icon {
+.feature__box-icon {
   padding: 25px 100px;
   margin-bottom: 30px;
   background: var(--time-bg-color);
@@ -283,18 +283,18 @@ body {
   padding-top: 0;
 }
 
-.description-list {
+.description {
   display: flex;
 }
 
-.discription-item:not(:last-child) {
+.discription__item:not(:last-child) {
   margin-right: 30px;
 }
-.discription-item {
+.discription__item {
   position: relative;
 }
 
-.description-text {
+.description__text {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -386,23 +386,20 @@ body {
 
 /*clients*/
 
-.client-list {
+.client {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
-.lient-item {
-  padding: 16px 32px;
-}
-.client-link {
+.client__link {
   display: flex;
   align-items: center;
   justify-content: center;
-
   width: 170px;
   height: 92px;
+  
   border-radius: 4px;
   border: 1px solid var(--icon-color);
   color: var(--icon-color);
@@ -411,13 +408,13 @@ body {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   border: 1px solid var(--accent-color);
   color: var(--accent-color);
 }
 
-.client-icon {
+.client__icon {
   fill: currentColor;
 }
 
