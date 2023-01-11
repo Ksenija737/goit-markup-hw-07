@@ -27,3 +27,22 @@
     background-color: var(--accent-color);
     fill: var(--white-color);
 }
+
+.social-box__text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.social-box--footer {
+    padding: 0;
+}
+
+.social-box__link--dark {
+    fill: var(--white-color);
+    background: rgba(255, 255, 255, 0.1);
+}

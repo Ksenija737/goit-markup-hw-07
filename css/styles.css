@@ -118,7 +118,7 @@ p {
   display: flex;
   align-items: center;
 }*/
-/* logo */
+/* logo 
 .logo {
   margin-right: 93px;
 
@@ -133,7 +133,7 @@ p {
   color: var(--title-text-color);
 }
 
-/*nav*/
+/*nav
 
 
 
@@ -162,7 +162,7 @@ p {
 }
 
 /*.header__link:hover,
-.header__link:focus,*/
+.header__link:focus,
 .contact__link:hover,
 .contact__link:focus {
   color: var(--accent-color);
@@ -184,7 +184,7 @@ p {
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
-}*/
+}
 
 .contact__icon {
   fill: currentColor;
@@ -262,7 +262,7 @@ p {
   border-radius: 4px;
 }*/
 
-/*description*/
+/*description
 
 .section--top {
   padding-top: 0;
@@ -552,7 +552,7 @@ button
 /* footer 
 .logo__end--white {
   color: var(--white-color);
-}*/
+}
 
 .section--lower{
   padding: 60px 0px;
@@ -594,7 +594,7 @@ button
 
 
 
-.social-box__text {
+/*.social-box__text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -608,7 +608,7 @@ button
   margin-right: 70px;
 }
 
-.social-box--footer {
+/*.social-box--footer {
   padding: 0;
 }
 
@@ -677,7 +677,7 @@ button
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Modal*/
+Modal
 
 .backdrop {
   position: fixed;
@@ -749,7 +749,7 @@ button
   color: var(--title-text-color);
 }
 
-/*Form*/
+Form
 
 .form-fild__label {
   color: var(--primary-text-color);
@@ -879,4 +879,4 @@ button
 
 .submit:hover {
   background: var(--accent-color);
-}
+}*/

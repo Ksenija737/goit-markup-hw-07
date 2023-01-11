@@ -1,4 +1,17 @@
+.logo {
+    margin-right: 93px;
 
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo__end--dark {
+    color: var(--title-text-color);
+}
 
 .logo__end--white {
     color: var(--white-color);
