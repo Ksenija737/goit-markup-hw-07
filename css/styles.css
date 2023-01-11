@@ -2,7 +2,7 @@
 /* другорядний колір тексту #212121 */
 /* білий колір тексту #FFFFFF */
 /* акцент тексту  #2196F3 */
-/* другорядний колір фону #F5F4FA */
+/* другорядний колір фону #F5F4FA 
 
 :root {
   --primary-text-color: #757575;
@@ -17,7 +17,7 @@
   --border-head-color: #ececec;
   --icon-color: #afb1b8;
   --icon-close-color: #000000;
-}
+} 
 
 *,
 *::before,
@@ -25,7 +25,7 @@
   box-sizing: border-box;
 }
 
-/* Стилі для обнулення верхніх відступів у елементів */
+Стилі для обнулення верхніх відступів у елементів 
 h1,
 h2,
 h3,
@@ -34,34 +34,34 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} */
 
-/* Клас для обнулення базових властивостей у списках (ul) */
+/* Клас для обнулення базових властивостей у списках (ul) 
 .list {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-/* Клас для обнулення базових властивостей у посиланнях */
+/* Клас для обнулення базових властивостей у посиланнях 
 .link {
   text-decoration: none;
   color: inherit;
 }
 
-/* Властивості для коректного відображення картинок */
+/* Властивості для коректного відображення картинок 
 .img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+}*/
 
-/* Властивості  для обнулення курсива у address */
+/* Властивості  для обнулення курсива у address 
 .address {
   font-style: normal;
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -72,9 +72,9 @@ p {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+}*/
 
-body {
+/*body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
@@ -88,6 +88,21 @@ body {
   padding: 0 15px;
   width: 1200px;
 }
+
+/*section
+
+.section {
+  padding: 94px 0;
+}
+
+.section__title {
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}*/
 
 /*header
 .header {
@@ -153,7 +168,7 @@ body {
   color: var(--accent-color);
 }
 
-.header__link--current {
+/*.header__link--current {
   color: var(--accent-color);
 }
 
@@ -169,14 +184,14 @@ body {
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
-}
+}*/
 
 .contact__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-/*hero*/
+/*hero
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -209,22 +224,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/*section*/
 
-.section {
-  padding: 94px 0;
-}
 
-.section__title {
-  margin-bottom: 50px;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-/*fetures*/
+/*fetures
 
 .feature {
   display: flex;
@@ -258,7 +260,7 @@ body {
   margin-bottom: 30px;
   background: var(--time-bg-color);
   border-radius: 4px;
-}
+}*/
 
 /*description*/
 
@@ -266,7 +268,7 @@ body {
   padding-top: 0;
 }
 
-.description {
+/*.description {
   display: flex;
 }
 
@@ -293,9 +295,9 @@ body {
 
   color: var(--white-color);
   background: rgba(47, 48, 58, 0.8);
-}
+}*/
 
-/* team */
+/* team 
 
 .team {
   display: flex;
@@ -366,8 +368,8 @@ body {
   background-color: var(--accent-color);
   fill: var(--white-color);
 }
-
-/*clients*/
+*/
+/*clients
 
 .client {
   display: flex;
@@ -400,8 +402,8 @@ body {
 .client__icon {
   fill: currentColor;
 }
-
-/* filter*/
+*/
+/* filter
 
 .filter {
   display: flex;
@@ -413,7 +415,7 @@ body {
   margin-left: 8px;
 }
 
-/*examples of work*/
+/*examples of work
 
 .works {
   display: flex;
@@ -495,7 +497,7 @@ body {
   transform: translateY(0);
 }
 
-/*button*/
+button
 
 .button {
   display: inline-block;
@@ -510,7 +512,6 @@ body {
   text-align: center;
   cursor: pointer;
 }
-
 .filter__button {
   color: var(--title-text-color);
   background-color: var(--time-bg-color);
@@ -520,7 +521,7 @@ body {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button {
+/*.hero__button {
   padding: 10px 24px;
   display: inline-block;
   font-weight: 700;
@@ -548,10 +549,10 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* footer */
+/* footer 
 .logo__end--white {
   color: var(--white-color);
-}
+}*/
 
 .section--lower{
   padding: 60px 0px;
