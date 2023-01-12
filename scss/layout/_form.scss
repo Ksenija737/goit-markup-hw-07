@@ -22,23 +22,26 @@
     &:focus {
             border-color: var(--accent-color);
         }
-    &__control {
+
+    }
+
+&__control {
             position: relative;
     
         }
     
-    &__icon {
+&__icon {
             position: absolute;
             top: 50%;
             left: 12px;
             transform: translateY(-50%);
-        }
-    
-    &__input:focus+&__icon {
-            fill: var(--accent-color);
-        }
-    
+
+            .form-fild__input:focus+& {
+                    fill: var(--accent-color);
+                }
 }
+    
+
 
 &__textarea {
     padding: 12px 16px;
@@ -66,9 +69,7 @@
 
 }
 
-.modal__form-fild {
-    margin-bottom: 10px;
-}
+
 
 .checkbox {
 
