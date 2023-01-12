@@ -3,4 +3,10 @@
   margin-right: auto;
   padding: 0 15px;
   width: 1200px;
+
+  &--lower {
+      display: flex;
+      align-items: baseline;
+    }
+
 }
