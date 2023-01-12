@@ -161,6 +161,7 @@ p {
 }
 .logo--white {
   color: var(--white-color);
+  margin-right: 0;
 }
 
 .modal__container {
