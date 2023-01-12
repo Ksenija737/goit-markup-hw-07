@@ -2,9 +2,9 @@
 /* другорядний колір тексту #212121 */
 /* білий колір тексту #FFFFFF */
 /* акцент тексту  #2196F3 */
-/* другорядний колір фону #F5F4FA 
+/* другорядний колір фону #F5F4FA */
 
-:root {
+/*:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -36,32 +36,32 @@ p {
   margin: 0;
 } */
 
-/* Клас для обнулення базових властивостей у списках (ul) 
-.list {
+/* Клас для обнулення базових властивостей у списках (ul) */
+/*.list {
   list-style: none;
   padding-left: 0;
   margin: 0;
-}
+}*/
 
-/* Клас для обнулення базових властивостей у посиланнях 
-.link {
+/* Клас для обнулення базових властивостей у посиланнях */
+/*.link {
   text-decoration: none;
   color: inherit;
-}
+}*/
 
-/* Властивості для коректного відображення картинок 
-.img {
+/* Властивості для коректного відображення картинок */
+/*.img {
   display: block;
   max-width: 100%;
   height: auto;
 }*/
 
-/* Властивості  для обнулення курсива у address 
-.address {
+/* Властивості  для обнулення курсива у address */
+/*.address {
   font-style: normal;
 }
 
-/*.visually-hidden {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -72,9 +72,9 @@ p {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}*/
+}
 
-/*body {
+body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
   font-family: Roboto, sans-serif;
@@ -87,7 +87,7 @@ p {
   margin-right: auto;
   padding: 0 15px;
   width: 1200px;
-}
+}*/
 
 /*section
 
@@ -132,7 +132,7 @@ p {
 .logo__end--dark {
   color: var(--title-text-color);
 }
-
+*/
 /*nav
 
 
@@ -161,14 +161,14 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.header__link:hover,
+.header__link:hover,
 .header__link:focus,
 .contact__link:hover,
 .contact__link:focus {
   color: var(--accent-color);
 }
 
-/*.header__link--current {
+.header__link--current {
   color: var(--accent-color);
 }
 
@@ -189,7 +189,7 @@ p {
 .contact__icon {
   fill: currentColor;
   margin-right: 10px;
-}
+}*/
 
 /*hero
 .hero {
@@ -223,7 +223,7 @@ p {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+}*/
 
 
 /*fetures
@@ -268,7 +268,7 @@ p {
   padding-top: 0;
 }
 
-/*.description {
+.description {
   display: flex;
 }
 
@@ -367,8 +367,8 @@ p {
 .social-box__link:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
-}
-*/
+}*/
+
 /*clients
 
 .client {
@@ -401,10 +401,10 @@ p {
 
 .client__icon {
   fill: currentColor;
-}
-*/
-/* filter
+}*/
 
+/* filter*/
+/*
 .filter {
   display: flex;
   justify-content: center;
@@ -413,11 +413,11 @@ p {
 
 .filter__item {
   margin-left: 8px;
-}
+}*/
 
-/*examples of work
+/*examples of work*/
 
-.works {
+/*.works {
   display: flex;
   flex-wrap: wrap;
 }
@@ -495,11 +495,11 @@ p {
 .work__link:hover .work-thumb__overlay,
 .work__link:focus .work-thumb__overlay {
   transform: translateY(0);
-}
+}*/
 
-button
+/*button*/
 
-.button {
+/*.button {
   display: inline-block;
   min-width: 67px;
   padding: 6px 22px;
@@ -521,7 +521,7 @@ button
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*.hero__button {
+.hero__button {
   padding: 10px 24px;
   display: inline-block;
   font-weight: 700;
@@ -547,10 +547,10 @@ button
   background-color: var(--accent-bg-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+}*/
 
-/* footer 
-.logo__end--white {
+/* footer */
+/*.logo__end--white {
   color: var(--white-color);
 }
 
@@ -594,7 +594,7 @@ button
 
 
 
-/*.social-box__text {
+.social-box__text {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -608,7 +608,7 @@ button
   margin-right: 70px;
 }
 
-/*.social-box--footer {
+.social-box--footer {
   padding: 0;
 }
 
@@ -675,9 +675,9 @@ button
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
-}
+}*/
 
-Modal
+/*Modal
 
 .backdrop {
   position: fixed;
@@ -747,11 +747,11 @@ Modal
   line-height: 1.15;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
+}*/
 
-Form
+/*Form*/
 
-.form-fild__label {
+/*.form-fild__label {
   color: var(--primary-text-color);
   margin-bottom: 4px;
 
