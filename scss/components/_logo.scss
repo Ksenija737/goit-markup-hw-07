@@ -8,12 +8,15 @@
     list-style: none;
     text-decoration: none;
 
-    &_end--dark {
+    &--dark {
             color: var(--title-text-color);
         }
     
-    &__end--white {
+    &--white {
             color: var(--white-color);
         }
+
 }
+
+
 

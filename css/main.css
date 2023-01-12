@@ -156,10 +156,10 @@ p {
   list-style: none;
   text-decoration: none;
 }
-.logo_end--dark {
+.logo--dark {
   color: var(--title-text-color);
 }
-.logo__end--white {
+.logo--white {
   color: var(--white-color);
 }
 
